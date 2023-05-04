@@ -20,7 +20,7 @@ Este repositório contém um script .bat chamado `executarSwift.bat` que pode se
 
 Agora você pode chamar o "executarSwift" em qualquer pasta que contenha um arquivo "main.swift" sem precisar copiar o script .bat para cada pasta.
 
-# Utilizando Swift no VSCode com MacBook
+# Utilizando Swift no VSCode no MacOS
 
 Este tutorial tem como objetivo ensinar a utilizar a linguagem Swift no VSCode em um MacBook.
 
