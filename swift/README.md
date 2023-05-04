@@ -1,4 +1,4 @@
-# Executar arquivo Swift com um script .bat
+# Executar arquivo Swift com um script .bat no Windows
 
 Este repositório contém um script .bat chamado `executarSwift.bat` que pode ser usado para compilar e executar arquivos Swift na pasta atual.
 
