@@ -29,14 +29,16 @@ Agora você pode chamar o "executarSwift" em qualquer pasta que contenha um arqu
 
 Este tutorial tem como objetivo ensinar a utilizar a linguagem Swift no VSCode em um MacBook.
 
-Primeiramente, instale as seguintes extensões no VSCode:
-- Swift: Swift Server Work Group https://marketplace.visualstudio.com/items?itemName=sswg.swift-lang
-- CodeLLDB: Vadim Chugunov https://marketplace.visualstudio.com/items?itemName=vadimcn.vscode-lldb
-
-Ou apenas instale a extensão (método fácil)
+(método fácil): apenas instale a extensão
 - Swift: Swift Server Work Group https://marketplace.visualstudio.com/items?itemName=sswg.swift-lang
 
 No VSCode use "command + shift + p" e selecione "Run Swift Script"
+
+Outro método... instale as seguintes extensões no VSCode:
+- Swift: Swift Server Work Group https://marketplace.visualstudio.com/items?itemName=sswg.swift-lang
+- CodeLLDB: Vadim Chugunov https://marketplace.visualstudio.com/items?itemName=vadimcn.vscode-lldb
+
+
 
 Em seguida, será necessário ajustar o caminho das ferramentas de linha de comando. No terminal, verifique se o resultado do comando `xcode-select -p` é `/Library/Developer/CommandLineTools`. Caso seja, altere-o com o comando:
 
