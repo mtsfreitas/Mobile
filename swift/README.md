@@ -1,5 +1,10 @@
 # Executar arquivo Swift com um script .bat no Windows
 
+Primeiramente, é necessário seguir o tutorial de instalação no https://www.swift.org/getting-started/
+
+Instale a seguinte extensão no VSCode:
+- Swift: Swift Server Work Group https://marketplace.visualstudio.com/items?itemName=sswg.swift-lang
+
 Este repositório contém um script .bat chamado `executarSwift.bat` que pode ser usado para compilar e executar arquivos Swift na pasta atual.
 
 ## Configuração
