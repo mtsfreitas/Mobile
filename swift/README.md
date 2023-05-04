@@ -33,6 +33,11 @@ Primeiramente, instale as seguintes extensões no VSCode:
 - Swift: Swift Server Work Group https://marketplace.visualstudio.com/items?itemName=sswg.swift-lang
 - CodeLLDB: Vadim Chugunov https://marketplace.visualstudio.com/items?itemName=vadimcn.vscode-lldb
 
+Ou apenas instale a extensão (método fácil)
+- Swift: Swift Server Work Group https://marketplace.visualstudio.com/items?itemName=sswg.swift-lang
+
+No VSCode use "command + shift + p" e selecione "Run Swift Script"
+
 Em seguida, será necessário ajustar o caminho das ferramentas de linha de comando. No terminal, verifique se o resultado do comando `xcode-select -p` é `/Library/Developer/CommandLineTools`. Caso seja, altere-o com o comando:
 
 `sudo xcode-select -s /Applications/Xcode.app/Contents/Developer`
