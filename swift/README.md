@@ -30,29 +30,21 @@ Primeiramente, instale as seguintes extensões no VSCode:
 
 Em seguida, será necessário ajustar o caminho das ferramentas de linha de comando. No terminal, verifique se o resultado do comando `xcode-select -p` é `/Library/Developer/CommandLineTools`. Caso seja, altere-o com o comando:
 
-\`\`\`bash
-sudo xcode-select -s /Applications/Xcode.app/Contents/Developer
-\`\`\`
+`sudo xcode-select -s /Applications/Xcode.app/Contents/Developer`
 
 Para criar um novo projeto Swift, abra o terminal e navegue até o diretório em que deseja criar seu projeto Swift. Depois, execute o comando:
 
-\`\`\`bash
-swift package init --type executable
-\`\`\`
+`swift package init --type executable`
 
 Esse comando criará um novo projeto executável Swift com uma estrutura de diretórios padrão.
 
 Configure o arquivo `launch.json`. Se o projeto estiver em uma pasta chamada "local", adicione a seguinte linha:
 
-\`\`\`json
-"program": "${workspaceFolder}/.build/debug/local",
-\`\`\`
+`"program": "${workspaceFolder}/.build/debug/local"`
 
 Para compilar e executar o projeto, abra o terminal integrado no VSCode e vá para a pasta raiz do projeto. Em seguida, execute o comando:
 
-\`\`\`bash
-swift build && swift run
-\`\`\`
+`swift build && swift run`
 
 Assim, seu projeto Swift será compilado e executado no VSCode utilizando um MacBook.
 
